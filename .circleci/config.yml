@@ -55,3 +55,6 @@ workflows:
           filters:
             branches:
               only: develop
+  test:
+    jobs:
+      - test
